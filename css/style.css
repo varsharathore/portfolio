@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 body{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    
     
 }
 .container-fluid{
@@ -112,9 +114,9 @@ section{
     text-decoration: none;    
 }
 #aboutMe>h3{
+    text-align: center;
     position: relative;
-    top: 20vh;
-    left: 50vw;
+    top: 10%;
     font-size: 1.75rem;
     font-family: 'Rowdies', cursive;
 }
@@ -123,42 +125,51 @@ section{
     color: purple;
     text-transform: uppercase;
 }
+#aboutMe h4{
+    color: purple;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    text-align: center;
+}
 #about{
-    position: relative;
-    top: 20vh;
-    left: 49vw;
-}
-#about>ul{
-    list-style: none;
     display: flex;
-    padding: 0;
-    margin:0 ;
-    
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 11.5%;
+
 }
-#about>ul>li{
+#life{
+    width: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    border: solid 2px purple;
+    border-radius: 10%;
+    padding: 2%;
     margin: 1%;
 }
-#about >ul>li>a{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: purple;
-    font-family: 'Rowdies', cursive;
-}
-
-#life{
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
-}
 #education{
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
+    width: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.35rem;
+    border: solid 2px purple;
+    border-radius: 10%;
+    padding: 2%;
+    margin: 1%;
+    
+}
+#education>h6{
+    font-size: 1.5rem;
+    font-weight:bold ;
 }
 #experience{
-    display: flex;
-    flex-direction: column;
-    width: 40vw;
+    width: 30%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+    border: solid 2px purple;
+    border-radius: 10%;
+    padding: 2%;
+    margin: 1%;
 }
 #github:hover{
     color: black;
