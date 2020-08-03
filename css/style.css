@@ -28,10 +28,10 @@ body{
     text-align: center;
     padding: 0 20px;    
 }
-img {
+#dp {
     height: 40%;
     width: 18%;
-    border-radius: 50%;
+    
 }
 
 .canavas #button{
@@ -142,11 +142,15 @@ section{
 #life{
     width: 30%;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     border: solid 2px purple;
     border-radius: 10%;
     padding: 2%;
     margin: 1%;
+}
+#friends{
+    width: 35%;
+    height: 30%;
 }
 #education{
     width: 30%;
@@ -161,6 +165,7 @@ section{
 #education>h6{
     font-size: 1.5rem;
     font-weight:bold ;
+    
 }
 #experience{
     width: 30%;
@@ -170,6 +175,99 @@ section{
     border-radius: 10%;
     padding: 2%;
     margin: 1%;
+}
+#skills h3{
+    
+    font-size: 2.5rem;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    color: purple;
+    text-transform: uppercase;
+}
+#skills p{
+    padding-left: 2%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.75rem;
+    position: relative;
+    top: 13%;
+    margin-bottom: 0;
+}
+#logo{
+    position: relative;
+    top: 16%;
+    margin-left: 2%;
+}
+#logo>h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    position: relative;    
+    top: 12%;
+}
+#frontend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+#programming{
+    margin: 2%;
+}
+#design{
+    margin: 2%;
+}
+
+#html5 {
+    color: red;
+    width: 7%;
+    height: auto;
+}
+#css3{
+    color: blue;
+    width: 5%;
+    height: auto;
+}
+#js{
+    width: 5%;
+    height: auto;
+}
+#boot{
+    width: 5%;
+    height: auto;
+}
+#jquery{
+    width: 5%;
+    height: auto;
+}
+#sass{
+    width: 5%;
+    height: auto;
+}
+#ps{
+    margin-left: 1.4%;
+    width: 5%;
+    height: auto;
+}
+#cplus{
+    margin-left: 1.4%;
+    width: 5%;
+    height: auto;
+}
+#c{
+    margin-left: 3%;
+    width: 5%;
+    height: auto;
+}
+#contact h3{
+    font-size: 2.5rem;
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    color: purple;
+    text-transform: uppercase;
 }
 #github:hover{
     color: black;
@@ -190,9 +288,7 @@ section{
     -webkit-text-fill-color: transparent;
 }
 
-#html5 {
-    color: red;
-}
+
 
 
   /* @media (max-width: 934px){
