@@ -29,8 +29,10 @@ body{
     padding: 0 20px;    
 }
 #dp {
-    height: 40%;
-    width: 18%;
+
+    width: 15%;
+    height: auto;
+    border-radius: 40%;
     
 }
 
