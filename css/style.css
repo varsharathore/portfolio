@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    height: 100%;
     
     
 }
@@ -108,6 +109,7 @@ body{
     
 }
 section{
+    min-height: 100vh;
     height: 100%;
 }
 .links a{
@@ -116,6 +118,7 @@ section{
     text-decoration: none;    
 }
 #aboutMe>h3{
+    padding-top: ;
     text-align: center;
     position: relative;
     top: 10%;
@@ -347,8 +350,12 @@ section{
     border: none;
     cursor: pointer;
 }
-
-
+footer{
+    text-align: center;
+    color: rgb(88, 88, 88);
+    font-size: 1.15rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
 
   @media (max-width: 924px){
     #about{
