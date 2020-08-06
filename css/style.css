@@ -109,7 +109,7 @@ body{
     
 }
 section{
-    min-height: 100vh;
+    
     height: 100%;
 }
 .links a{
@@ -118,7 +118,7 @@ section{
     text-decoration: none;    
 }
 #aboutMe>h3{
-    padding-top: ;
+    padding-top: 4% ;
     text-align: center;
     position: relative;
     top: 10%;
@@ -266,6 +266,7 @@ section{
     height: auto;
 }
 #contact h3{
+    padding-top: 4%;
     font-size: 2.5rem;
     font-family: 'Rowdies', cursive;
     text-align: center;
