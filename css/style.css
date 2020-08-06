@@ -350,8 +350,36 @@ section{
 
 
 
-  /* @media (max-width: 934px){
-    nav{
+  @media (max-width: 924px){
+    #about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #life{
+        width: 80%;
+    }
+    #education{
+        width: 80%;
+
+    }
+    #experience{
+        width: 80%;
+
+    }
+    
+  }
+
+  @media (max-height:960px){
+      
+  }
+
+
+
+  
+    
+    /* nav{
         background-color: transparent;
     }
     .burger{
@@ -379,5 +407,4 @@ section{
     
     .burger:active ~ *ul{
       left: 0;
-    }
-  } */
+    } */
